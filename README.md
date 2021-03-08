@@ -1,5 +1,5 @@
-# MKeyboard
-MKeyboard - Turns the keyboard into a musical instrument
+# WMKeyboard
+WMKeyboard - Turns the keyboard into a musical instrument
 
 # How to play
 1)Run application

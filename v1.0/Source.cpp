@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	string title = "title MKeyboard by Groiznyi - Setting: TimePlay = 100, Color = 1";
+	string title = "title WMKeyboard by Groiznyi - Setting: TimePlay = 100, Color = 1";
 	int dwDuration = 100;
 	int Color = 1;
 	int key;
@@ -79,7 +79,7 @@ int main()
 				MessageBoxA(NULL, "Timeplay is out of range!!!", "MKeyboard Error", 16);
 			else {
 				dwDuration = dwDuration - 50;
-				title = "title MKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
+				title = "title WMKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
 			}
 		}
 
@@ -89,45 +89,45 @@ int main()
 				MessageBoxA(NULL, "Timeplay is out of range!!!", "MKeyboard Error", 16);
 			else {
 				dwDuration = dwDuration + 50;
-				title = "title MKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
+				title = "title WMKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
 			}
 		}
 
 		else if (key == 49) //Color - 1
 		{
 			Color = 1;
-			title = "title MKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
+			title = "title WMKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
 			system("color 7");}
 
 		else if (key == 50) //Color - 2
 		{
 			Color = 2;
-			title = "title MKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
+			title = "title WMKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
 			system("color A7");
 		}
 
 		else if (key == 51) //Color - 3
 		{
 			Color = 3;
-			title = "title MKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
+			title = "title WMKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
 			system("color C7");}
 
 		else if (key == 52) //Color - 4
 		{
 			Color = 4;
-			title = "title MKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
+			title = "title WMKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
 			system("color 97");}
 
 		else if (key == 53) //Color - 5
 		{
 			Color = 5;
-			title = "title MKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
+			title = "title WMKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
 			system("color DC");}
 
 		else if (key == 54) //Color - 6
 		{
 			Color = 6;
-			title = "title MKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
+			title = "title WMKeyboard by Groiznyi - Setting: TimePlay = " + to_string(dwDuration) + ", Color = " + to_string(Color);
 			system("color BC");}
 
 	}
